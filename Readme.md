@@ -1,4 +1,4 @@
-En qué consiste el principio de responsabilidad única? ¿Cuál es su propósito? 
+#### En qué consiste el principio de responsabilidad única? ¿Cuál es su propósito? 
 
 Una clase realiza una única función
 Todos nuestros métodos deben de estar bien definidos y ser concretos con la finalidad de la clase
@@ -8,7 +8,7 @@ Por ejemplo:
 En mi clase MapApiViewModel su única finalidad es extraer un fichero .json del disco 
 En mi clase MoviesHeaderSectionView establece el diseño del header de cada section
 
-¿Qué características tiene, según su opinión, un “buen” código o código limpio?  
+#### ¿Qué características tiene, según su opinión, un “buen” código o código limpio?  
 	✓	Fácil de leer para cualquier programador 
 	✓	Aplicar la nomenclatura correcta a variables, métodos, clases, estructuras, etc.
 	✓	Usar plurales y singulares “Movie” “Movies” esto ayuda bastante para inferir muchas cosas
@@ -19,7 +19,7 @@ En mi clase MoviesHeaderSectionView establece el diseño del header de cada sect
 	✓	Actualizar las funciones deprecadas 
 	✓	Evitar funciones con muchos paràmetros de entrada, en caso de ser necesario separar en otras funciones
 
-Detalla cómo harías todo aquello que no hayas llegado a completar.  
+#### Detalla cómo harías todo aquello que no hayas llegado a completar.  
 	•	No termine las pruebas Unitarias.
 
 También deje varias TODO y FIXME para tener una app funcional, de todas maneras dejo aquí la lista:
@@ -33,7 +33,7 @@ También deje varias TODO y FIXME para tener una app funcional, de todas maneras
 	•	En MoviesHeaderFiltersView cambiar el (for filters) por collectionview para hacerlo mas funcional 
 	•	En MoviesTrailers cambiar a un collectionview para mostrar todos los tráileres 
 
-Swift Package Dependencies
+### Swift Package Dependencies
 https://github.com/hyperoslo/Cache/
 
 https://github.com/Alamofire/Alamofire
