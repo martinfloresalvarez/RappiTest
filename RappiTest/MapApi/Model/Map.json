@@ -1,0 +1,26 @@
+{
+  "map": [{
+    "title": "Proximos entrenos",
+    "urlApi": "movie/upcoming",
+    "filter": false
+  }, {
+    "title": "Tendencias",
+    "urlApi": "movie/top_rated",
+    "filter": false
+  }, {
+    "title": "Recomendados para ti",
+    "urlApi": "movie/top_rated",
+    "filter": true,
+    "filters": [{
+        "title": "En español",
+        "urlApi": "movie/top_rated",
+        "filter": "&language=es-MX&region=mx"
+      },
+      {
+        "title": "Lanzadas en el 2000",
+        "urlApi": "movie/top_rated/",
+        "filter": "&primary_release_date.gte=2020-01-01"
+      }
+    ]
+  }]
+}
